@@ -42,7 +42,7 @@ export default function Footer() {
 </div>
 
 <div className='max-w-[700px] w-full text-black'>
- <h2 className='font-primaryMedium text-[15px] tracking-widest'>Suscribe</h2>
+ <h2 className='font-primaryMedium text-[15px] tracking-widest'>Subscribe</h2>
  <p className='font-primaryRegular text-[16px] pt-5'>Stay up to date with our newsletter</p>
 
   <div className='flex flex-row md:space-x-2 space-x-3 pt-7 items-center'>

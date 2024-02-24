@@ -4,6 +4,7 @@ import SignUp  from './components/SignUp/SignUp'
 import Password from'./components/Password/Password'
 import Login from './components/Login/Login'
 import Footer from './components/Footer'
+import Reset from './components/Reset/Reset'
 
 
 function App() {
@@ -13,6 +14,18 @@ function App() {
     <div>
         <Login />
         <Footer />
+        <div>
+        <SignUp/>
+        <Footer/>
+        </div>
+        <div>
+          <Password />
+          <Footer />
+        </div>
+        <div>
+          <Reset />
+          <Footer />
+        </div>
     </div>
   )
 }

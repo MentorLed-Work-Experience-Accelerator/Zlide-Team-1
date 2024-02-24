@@ -18,15 +18,15 @@ const Login = () => {
     <div className="bg-neutral-700 items-center justify-center">
     <div className="head">
       <div className="px-6 py-8 m-auto max-w-[700px] w-full">
-    <h2 className="text-4xl text-white font-medium p-6">Login</h2>
+    <h2 className="text-3xl tracking-wider text-white font-primaryMedium p-6">Login</h2>
       <div className="p-6 gap-4">
         <form className="flex flex-col gap-4">
-          <label className="text-xl text-white px-2">Email</label>
+          <label className="text-[17px] tracking-wider font-primaryRegular text-white px-2">Email</label>
           <input type="email" placeholder="Enter Work Email" className="w-full rounded-lg py-4 px-6 bg-gray-200 text-base"
           //  value={email} onChange={(e) => setEmail(e.target.value)} 
           />
           
-          <label className="text-xl text-white px-2">Password</label>
+          <label className="text-[17px] tracking-wider text-white px-2 font-primaryRegular">Password</label>
           <div className="relative">
             <IoMdEyeOff  className='absolute top-[30%] left-[94%] items-center' size={18}/>
           <input type="password" placeholder="**********" className="w-full rounded-lg py-4 px-6 bg-gray-200 text-base"
@@ -34,12 +34,9 @@ const Login = () => {
           />
           </div>
           <div className="flex justify-between items-center text-center">
-            <div className=" flex items-center gap-1">
-              <input type="checkbox" />
-              <label className="text-xs text-white">Remember Me</label>
-            </div>
-            <div>
-              <a href="#" className="pass font-semibold text-xs">Forget Password?</a>
+            
+            <div className='ml-auto'>
+              <a href="#" className="pass font-primaryThin tracking-wider text-xs text-right">Forget Password?</a>
             </div>
           </div>
 
@@ -53,7 +50,7 @@ const Login = () => {
         <p class="text-center text-sm text-white">OR</p>
         <hr className="border-gray-400"/>
       </div>
-      <div className="text-white flex gap-2 items-center">Login with <a href="#"><img src="/src/images/google.png" alt="google" width={70} height={70} className='items-center' /></a></div>
+      <div className="text-white flex gap-2 items-center font-primaryThin text-[15px]">Login with <a href="#"><img src="/src/images/google.png" alt="google" width={70} height={70} className='items-center' /></a></div>
       </div>
       </div>
       </div>

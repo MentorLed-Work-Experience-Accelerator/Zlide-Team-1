@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: "Regular";
+  src: local("OkineSans-Regular"), url('./assets/fonts/OkineSans-Regular.otf') format("opentype");
+}
+@font-face{
+  font-family: "Medium";
+  src: local("OkineSans-Medium"), url('./assets/fonts/OkineSans-Medium.otf') format("opentype");
+}
+@font-face{
+  font-family: "Bold";
+  src: local("OkineSans-Bold"), url('./assets/fonts/OkineSans-Bold.otf') format("opentype");
+}
+@font-face{
+  font-family: "Black";
+  src: local("OkineSans-Black"), url('./assets/fonts/OkineSans-Black.otf') format("opentype");
+}
+@font-face{
+  font-family: "Thin";
+  src: local("OkineSans-Thin"), url('./assets/fonts/OkineSans-Thin.otf') format("opentype");
+}

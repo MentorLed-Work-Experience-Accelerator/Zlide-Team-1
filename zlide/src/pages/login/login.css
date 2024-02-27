@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+.head {
+    background: linear-gradient(90.47deg, #1F1053 12.95%, #0A1F79 49.12%, #5D05C8 87.71%);
+
+}
+ .pass, .create {
+    color: #FFD045;
+ }
+
+.btn {
+    background-color: #FFD045;
+}

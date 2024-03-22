@@ -1,5 +1,7 @@
 import React from 'react'
 import { IoMdEyeOff } from 'react-icons/io'
+import ResetModal from './ResetModal';
+import { useState } from 'react';
 
 
 const Reset = () => {
@@ -12,7 +14,21 @@ const Reset = () => {
   //   console.log('Password:', password);
   // };
 
+  
+  const [isResetSuccessful, setResetSuccessful] = useState(false);
+  
+  const handleResetSuccess = () => {
+    setResetSuccessful(true);
+  };
+
+  const closeResetModal = () => {
+    setResetSuccessful(false);
+  };
+
+
   return (
+    <>
+    <ResetModal isOpen={isResetSuccessful} onClose={closeResetModal} />
     <div className="bg-neutral-700 items-center justify-center">
     <div className="head">
       <div className="px-6 py-8 m-auto max-w-[700px] w-full">
@@ -37,7 +53,7 @@ const Reset = () => {
           />
           </div>
           
-          <button className="btn w-full text-black rounded-lg py-4 font-primaryRegular">Reset Password</button>
+          <button onClick={handleResetSuccess} className="btn w-full text-black rounded-lg py-4 font-primaryRegular">Reset Password</button>
 
           <div className="text-white text-sm text-center font-primaryThin tracking-widest">Don't Have An Account?<a href="#" className="create font-primaryRegular"> Create Account</a></div>
         </form>
@@ -53,6 +69,7 @@ const Reset = () => {
       </div>
     </div>
     </div>
+    </>
   );
 };
 

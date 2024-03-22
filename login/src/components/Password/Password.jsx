@@ -1,18 +1,33 @@
 import React from 'react'
 import { IoMdEyeOff } from 'react-icons/io'
-
+import PwdModal from './PwdModal';
+import { useState } from 'react';
 
 const Password = () => {
-  // const [email, setEmail] = useState('');
+  const [email, setEmail] = useState('');
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   // Add your authentication logic here
-  //   console.log('Email:', email);
-  //   console.log('Password:', password);
-  // };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Add your authentication logic here
+    console.log('Email:', email);
+    console.log('Password:', password);
+  };
+
+
+    const [isPwdSuccessful, setPwdSuccessful] = useState(false);
+  
+    const handlePwdSuccess = () => {
+      setPwdSuccessful(true);
+    };
+  
+    const closePwdModal = () => {
+      setPwdSuccessful(false);
+    };
+
 
   return (
+    <>
+    <PwdModal isOpen={isPwdSuccessful} onClose={closePwdModal} />
     <div className="bg-neutral-700 items-center justify-center">
     <div className="head">
       <div className="px-6 py-8 m-auto max-w-[700px] w-full">
@@ -21,9 +36,9 @@ const Password = () => {
         <form className="flex flex-col gap-4">
           <label className="text-[17px] tracking-wider font-primaryRegular text-white px-2">Email</label>
           <input type="email" placeholder="Enter Work Email" className="w-full rounded-lg py-4 px-6 bg-gray-200 text-base"
-          //  value={email} onChange={(e) => setEmail(e.target.value)} 
+           value={email} onChange={(e) => setEmail(e.target.value)} 
           />
-          <button className="btn w-full text-black rounded-lg py-4 font-primaryRegular">Reset Password</button>
+          <button onClick={handlePwdSuccess} className="btn w-full text-black rounded-lg py-4 font-primaryRegular">Reset Password</button>
 
           <div className="text-white text-sm text-center font-primaryThin tracking-widest">Don't have an Account?<a href="#" className="create font-primaryRegular"> Create Account</a></div>
         </form>
@@ -39,6 +54,7 @@ const Password = () => {
       </div>
     </div>
     </div>
+    </>
   );
 };
 

@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div id='heder' className='max-w-[1440px] w-full'>
         <div className='md:bg-gradient-to-r md:from-[#115] md:from-12.95% md:via-[#017] md:via-49.12% md:to-violet-800 md:to-887.71% bg-gradient-to-br from-[#115] from-2% via-[#017] via-30% to-violet-800 to-80% w-full absolute top-0 md:max-h-[1540px] max-h-[498px]' >
-      <section style={{backgroundImage: 'url(/src/images/Lines.png)', backgroundRepeat: 'repeat', backgroundSize: 'contain'}}>
+      <section style={{backgroundImage: 'url(/images/Lines.png)', backgroundRepeat: 'repeat', backgroundSize: 'contain'}}>
             <div className='max-w-[1440px] w-full h-full justify-center items-center m-auto text-center md:pt-[9em] pt-32' >
             <h2 className='md:text-[80px] text-4xl tracking-wide font-primaryMedium text-white'>Effortless Creation</h2>
             <h2 className='md:text-[80px] text-4xl tracking-wide font-primaryMedium text-white md:py-16 py-4'>Limitless Possibilities</h2>

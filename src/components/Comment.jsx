@@ -74,7 +74,7 @@ useEffect(() => {
   return (
     <div className='pt-[2em]'>
       <div className='bg-gradient-to-br from-indigo-950 via-blue-900 to-violet-800 md:h-[410px] h-[500px] flex-wrap'>
-        <section style={{backgroundImage: 'url(/src/images/Lines.svg.png)', backgroundRepeat: 'repeat', backgroundSize: 'contain', backgroundPosition: 'center', height: '558px'}}>
+        <section style={{backgroundImage: 'url(/images/Lines.svg.png)', backgroundRepeat: 'repeat', backgroundSize: 'contain', backgroundPosition: 'center', height: '558px'}}>
          <div className='max-w-[1240px] mx-auto md:pl-20 p-4 py-20 w-full' >
        
         <div className='max-w-[900px] relative mx-auto text-center text-xl text-white font-primaryThin gap-[32px] text-[16px] tracking-wider'> 

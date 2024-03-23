@@ -136,7 +136,7 @@ export default function Signup() {
            <p class="text-center text-sm">OR</p>
            <hr className="border-gray-400"/>
          </div>
-         <div className=" flex gap-2 items-center font-primaryRegular tracking-widest text-[14px]">Login with <a href="#"><img src="/src/images/logos_google.png" alt="google" width={70} height={70} className='items-center' /></a></div>
+         <div className=" flex gap-2 items-center font-primaryRegular tracking-widest text-[14px]">Login with <a href="#"><img src="/images/logos_google.png" alt="google" width={70} height={70} className='items-center' /></a></div>
          </div>
          </div>
          </div>

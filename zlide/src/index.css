@@ -22,3 +22,9 @@
   font-family: "Thin";
   src: local("OkineSans-Thin"), url('./assets/fonts/OkineSans-Thin.otf') format("opentype");
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

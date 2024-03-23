@@ -33,6 +33,7 @@ export default function dashboard() {
       <section className='flex gap-6'>
 
             <div className={`md:bg-gradient-to-br md:from-[#115] md:from-78.95% md:via-[#017] md:via-% md:to-violet-800 md:to-%  fixed cursor-pointer ${open ? "w-[232px]" : "w-[80px]"} duration-500 p-7 shadow-2xl h-[100vh]`}>
+              <section style={{backgroundImage: 'url(/images/footer.png)', backgroundRepeat: 'repeat', backgroundSize: 'cover', backgroundPosition: 'left',}}>
                <div className='py-6 flex gap-2'>
                 <span><img src="" alt="img" className='rounded-full' /></span>
                 <span><h3  style={{ transitionDelay: '300ms'}} className={`text-white font-primaryRegular tracking-wide text-center duration-500 whitespace-pre ${!open && 'opacity-0 translate-x-28 overflow-hidden'}`}>Abdullahi Mansur</h3>
@@ -78,8 +79,8 @@ export default function dashboard() {
                 style={{ transitionDelay: '300ms'}}
                 className='bg-[#fd4] text-[14px] p-4 font-primaryRegular rounded-lg mt-[13px]'>Get Unlimited Zlides</button>
                </div>
+            </section>
             </div>
-
 
         <div className='absolute left-[280px] flex flex-row'>
            <Television />

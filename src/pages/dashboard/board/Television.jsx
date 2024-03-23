@@ -10,13 +10,13 @@ export default function Television() {
         {
           id: 1,
           text: 'Artificial Intelligence in finance project',
-          src: '/src/images/Copy of Artificial Intelligence in Finance Project Proposal by Slidesgo.png',
+          src: '/images/Copy of Artificial Intelligence in Finance Project Proposal by Slidesgo.png',
           view: 'Viewed Mar 14, 2024',  
         },
         {
           id: 2,
           text: 'Investment Business Plan',
-          src: '/src/images/Copy of Investment Business Plan XL by Slidesgo.png',
+          src: '/images/Copy of Investment Business Plan XL by Slidesgo.png',
           view: 'Viewed Mar 14, 2024',  
         },
              
@@ -26,21 +26,21 @@ export default function Television() {
         {
             id: 1,
             text: 'Artificial Intelligence in finance project proposal just testing',
-            src: '/src/images/Copy of Biomedicine Laboratory Company Profile by Slidesgo.png',
+            src: '/images/Copy of Biomedicine Laboratory Company Profile by Slidesgo.png',
             view: 'Viewed Mar 14, 2024',  
           },
          
           {
             id: 4,
             text: 'Artificial Intelligence in finance project proposal just testing',
-            src: '/src/images/Copy of Artificial Intelligence in Finance Project Proposal by Slidesgo.png',
+            src: '/images/Copy of Artificial Intelligence in Finance Project Proposal by Slidesgo.png',
             view: 'Viewed Mar 14, 2024',  
           },
          
           {
             id: 6,
             text: 'Artificial Intelligence in finance project proposal just testing',
-             src: '/src/images/aqua-marketing-plan1706014956___media_library_original_548_308.png',
+             src: '/images/aqua-marketing-plan1706014956___media_library_original_548_308.png',
             view: 'Viewed Mar 14, 2024',  
           },
     ]

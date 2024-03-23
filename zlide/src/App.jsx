@@ -10,15 +10,21 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <div className='m-auto text-2xl'>
+    <div className='text-2xl'>
     <Navbar />
     <Header />
+    <div className='md:mt-[3em] mt-0'>
     <GetStarted />
+    </div>
     <Instructions />
     <Comment />
+    <div className='mt-[7em]'>
     <Pricing />
+    </div>
     <WorkedWith />
-    <Footer />
+     <div className='mt-[6em]'>
+     <Footer />
+     </div>
     </div>
   )
 }
